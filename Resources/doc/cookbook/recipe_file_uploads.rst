@@ -49,9 +49,9 @@ upload timestamp.
             repositoryClass: AppBundle\Entity\Repositories\ImageRepository
             table: images
             id:
-            id:
-                type:         integer
-                generator:    { strategy: AUTO }
+                id:
+                    type:         integer
+                    generator:    { strategy: AUTO }
             fields:
             filename:
                 type:         string
